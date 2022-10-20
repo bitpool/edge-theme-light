@@ -1,0 +1,90 @@
+/*
+.red-ui-palette-content {
+    background-color: #133547 !important;
+}
+.red-ui-palette-header {
+    background-color: #00ADEF !important;
+}
+.red-ui-palette-search, .red-ui-searchBox-input {
+    background-color: #104b66 !important;
+    border-radius: 8px;
+    border: 0 !important;
+}
+#red-ui-workspace-tabs, .red-ui-tab-button.red-ui-tab-scroll.red-ui-tab-scroll-left, .red-ui-tab-button.red-ui-tab-scroll.red-ui-tab-scroll-right {
+    background-color: #133547 !important;
+    opacity: 1 !important;
+}
+.red-ui-menu.red-ui-menu-dropdown.pull-right > li > a > i {
+    color: white !important;
+}
+#red-ui-workspace, #red-ui-palette {
+    border: 0 !important;
+}
+.red-ui-tab-button.red-ui-tabs-add, .red-ui-tab-button.red-ui-tabs-menu {
+    background-color: #133547 !important;
+}
+
+#red-ui-header .button {
+    border-left: 0 !important;
+    border-right: 0 !important;
+}
+
+.red-ui-tabs ul {
+    border: 0 !important;
+}
+
+.red-ui-tab-button {
+    border: 0 !important;
+}
+
+.red-ui-deploy-button.disabled {
+    background-color: #00adef !important;
+    color: white !important;
+}
+
+#red-ui-header #red-ui-header-button-deploy.disabled .red-ui-deploy-button-content>img {
+    opacity: .8;
+}
+
+.red-ui-deploy-button {
+    background: #00adef !important;
+}
+
+.red-ui-tabs ul li {
+    box-sizing: border-box;
+    display: inline-block;
+    border-left: 1px solid #bbb;
+    border-top: 1px solid #bbb;
+    border-right: 1px solid #bbb;
+    border-radius: 8px 8px 0px 0px;
+    border-bottom: 1px solid #bbb;
+    background: #f0f0f0;
+    margin: 3px 3px 0 3px;
+    height: 32px;
+    line-height: 29px;
+    max-width: 200px;
+    width: 14%;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+}
+
+#red-ui-palette {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    background: #133547;
+    width: 180px;
+    text-align: center;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid #bbb;
+    box-sizing: border-box;
+    transition: width .2s ease-in-out;
+}
+
+*/

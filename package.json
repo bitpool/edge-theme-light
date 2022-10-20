@@ -1,0 +1,42 @@
+{
+  "name": "@bitpoolos/edge-theme-light",
+  "version": "1.0.0",
+  "description": "A light Bitpool theme for Node-RED",
+  "node-red": {
+    "version": ">=2.2.2",
+    "plugins": {
+        "bitpool-light-theme": "theme.js"
+    }
+  },
+  "keywords": [
+    "node-red",
+    "bitpool",
+    "bitpoolos",
+    "edge",
+    "theme",
+    "light theme"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "author": {
+      "name": "bitpool-dev",
+      "email": "dev@bitpool.com"
+  },
+  "license": "MIT",
+  "publishConfig": {
+      "access": "public",
+      "registry": "https://registry.npmjs.org/"
+  },
+  "bugs": {
+    "url": "https://github.com/bitpool/edge-theme-light/issues"
+  },
+  "homepage": "https://github.com/bitpool/edge-theme-light#readme",        
+  "repository": {
+      "type": "github",
+      "url": "git+https://github.com/bitpool/edge-theme-light.git"
+  }
+}

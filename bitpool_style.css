@@ -1,0 +1,191 @@
+/*
+  MIT License Copyright 2021, 2022 - Bitpool Pty Ltd
+*/
+
+:root {
+    --bitpool-blue-dark: #00b1f0;
+    --bitpool-blue-light: #0689BC;
+    --bitpool-red: #de4f61;
+    --bitpool-silver: #e1f4fd;
+    --bitpool-sidebar: #eaf3f7;
+    --bitpool-dark-hover: #01283c;
+    --bitpool-primary-background: #133547;
+    --bitpool-deploy-button-background: #00ADEF;
+}
+#red-ui-header {
+    background: var(--bitpool-primary-background);
+    /* height: 50px !important; */
+}
+* {
+    color: #104b66;
+}
+.red-ui-workspace-chart-grid line {
+    stroke: #6d778d !important;
+    opacity: 0.1 !important;
+}
+#node-dialog-login-submit {
+    background-color: var(--bitpool-blue-light) !important;
+    color: white;
+}
+.red-ui-flow-port {
+    fill: #4690b7 !important;
+}
+.red-ui-flow-drag-line {
+    stroke: var(--bitpool-blue-light) !important;
+}
+g.red-ui-flow-link-selected path.red-ui-flow-link-line {
+    stroke: #00cbdb;
+}
+.red-ui-tab:not(.active){
+    background: #d5e1e7;
+}
+#red-ui-sidebar, .red-ui-tabs-vertical {
+    background-color: var(--bitpool-sidebar) !important;
+}
+#red-ui-sidebar-content {
+    background-color: var(--bitpool-sidebar)  !important;
+}
+.red-ui-component-footer {
+    background-color: var(--bitpool-sidebar)  !important;
+}
+.red-ui-sidebar-info {
+    background-color: var(--bitpool-sidebar)  !important;
+}
+.red-ui-treeList-container > .red-ui-editableList > .red-ui-editableList-border, .red-ui-editableList-border > ol {
+    background-color: var(--bitpool-sidebar)  !important;
+}
+#node-dialog-ok {
+    border-color: #3295BD !important;
+    color: #eee !important;
+    background: #3295BD !important;
+}
+#red-ui-header-button-deploy:not(.disabled) {
+    border: 1px solid #aaa;
+    color: white !important;
+    background-color: var(--bitpool-deploy-button-background) !important;
+    padding: 4px 7px !important;
+    line-height: 20px !important;
+    font-size: 14px !important;
+}
+#red-ui-header-button-deploy:not(.disabled) span {
+    color: white !important;
+    background-color: var(--bitpool-deploy-button-background) !important;
+    font-size: 14px !important;
+}
+#red-ui-header .red-ui-deploy-button:hover {
+    border: 1px solid #aaa;
+    color: white !important;   
+}
+#red-ui-header #red-ui-header-button-deploy .red-ui-deploy-button-content>img {
+    margin-right: 5px !important;
+    padding: 0px 1px 1px 0px !important;
+}
+#red-ui-header .button {
+    color: #F8F9FA !important;
+    font-size: 24px;
+    border-left: 2px solid rgb(76 104 118) !important;
+    border-right: 2px solid rgb(76 104 118) !important;
+}
+#red-ui-header i {
+    color: white !important;
+}
+.red-ui-deploy-button.disabled {
+    background-color: #082230 !important;
+    color: white !important;
+}
+.red-ui-deploy-button {
+    background: #082230 !important;
+}
+.red-ui-deploy-button-content > span {
+    color: white !important;
+}
+.red-ui-menu-dropdown>li>a:hover, #red-ui-header ul.red-ui-menu-dropdown>li>a:hover, 
+.red-ui-menu-dropdown>li>a:hover, .red-ui-menu-dropdown>li.open>a, .red-ui-menu-dropdown>li>a:focus, 
+.red-ui-menu-dropdown-submenu:hover>a, .red-ui-menu-dropdown-submenu:focus>a {
+    background-color: var(--bitpool-dark-hover) !important;
+}
+.red-ui-menu-dropdown>li>a:focus, .red-ui-menu-dropdown>li>a:hover, .red-ui-menu-dropdown>li>a:focus, 
+.red-ui-menu-dropdown-submenu:hover>a, .red-ui-menu-dropdown-submenu:focus>a, #red-ui-header ul.red-ui-menu-dropdown>li:hover>a {
+    background-color: var(--bitpool-dark-hover) !important;
+}
+#node-dialog-login-username {
+    color: var(--bitpool-blue-light) !important;
+}
+#node-dialog-login-password {
+    color: var(--bitpool-blue-light) !important;
+}
+#red-ui-loading-progress>div {
+    color: var(--bitpool-blue-dark) !important;
+}
+.red-ui-flow-node {
+    stroke: #bbe7ff !important;
+}
+g.red-ui-flow-node-selected .red-ui-flow-node {
+    stroke: #7fd3ff !important;
+}
+.red-ui-palette-node:hover {
+    border-color: transparent;
+    box-shadow: 0 0 0 2px #7fd3ff !important;
+}
+.red-ui-popover {
+    background: #133547 !important;
+    color: #F8F9FA !important;
+}
+.red-ui-popover-content p, .red-ui-popover-content b, .red-ui-popover-content, .red-ui-popover-content > span,
+.red-ui-popover-key, .red-ui-popover-content > div > button > i {
+    color: #F8F9FA !important;
+}
+.red-ui-menu.red-ui-menu-dropdown.pull-right, .red-ui-menu-dropdown {
+    background: #133547 !important;
+    color: #F8F9FA !important;
+}
+.red-ui-menu > span {
+    color: #F8F9FA !important;
+}
+#red-ui-header > span > span {
+    color: #F8F9FA !important;
+    vertical-align: baseline !important;
+}
+#red-ui-header > span > img {
+    height: 40px !important;
+    margin-top: -4px;
+}
+.nr-ui-view-lasso {
+    stroke: #133547 !important;
+    fill: rgba(20,125,255,0.1) !important;
+}
+.red-ui-menu-dropdown-submenu > a > span > span, .red-ui-menu-label > span, .red-ui-menu-label {
+    color: #e1f4fd !important;
+}
+.red-ui-treeList-label.selected, .red-ui-treeList-label.selected .red-ui-info-outline-item-controls {
+    background: #daeeff;
+}
+.red-ui-debug-msg-meta, .red-ui-debug-msg-payload {
+    background: #f5f9fc !important;
+}
+#deploymenu-item-flow > img {
+    /* content: url("/resources/@bitpool/node-red-contrib-bitpool-light-theme/bitpool.svg"); */
+}
+.red-ui-menu.red-ui-menu-dropdown.pull-right > li > a > i {
+    color: white !important;
+}
+#node-dialog-login > div {
+    margin: auto !important;
+}
+#usermenu-item-username > span > span > b {
+    color: #b0e7ff !important;
+}
+.ui-dialog-titlebar.ui-corner-all.ui-widget-header.ui-helper-clearfix {
+    background-color: #133547 !important;
+}
+#node-dialog-login-image {
+    padding-bottom: 50px;
+}
+.ui-widget-overlay {
+    background-image: url('/resources/@bitpool/node-red-contrib-bitpool-light-theme/auth-bg-img.svg') !important;
+    background-size: cover !important;
+}
+.ui-dialog.red-ui-editor-dialog.ui-widget.ui-widget-content.ui-front {
+    border: 0 !important;
+}
+
