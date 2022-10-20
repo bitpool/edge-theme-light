@@ -1,6 +1,6 @@
 {
   "name": "@bitpoolos/edge-theme-light",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A light Bitpool theme for Node-RED",
   "node-red": {
     "version": ">=2.2.2",
