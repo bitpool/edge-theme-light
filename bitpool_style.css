@@ -14,7 +14,6 @@
 }
 #red-ui-header {
     background: var(--bitpool-primary-background);
-    /* height: 50px !important; */
 }
 * {
     color: #104b66;
@@ -163,9 +162,6 @@ g.red-ui-flow-node-selected .red-ui-flow-node {
 .red-ui-debug-msg-meta, .red-ui-debug-msg-payload {
     background: #f5f9fc !important;
 }
-#deploymenu-item-flow > img {
-    /* content: url("/resources/@bitpool/node-red-contrib-bitpool-light-theme/bitpool.svg"); */
-}
 .red-ui-menu.red-ui-menu-dropdown.pull-right > li > a > i {
     color: white !important;
 }
@@ -182,7 +178,7 @@ g.red-ui-flow-node-selected .red-ui-flow-node {
     padding-bottom: 50px;
 }
 .ui-widget-overlay {
-    background-image: url('/resources/@bitpool/node-red-contrib-bitpool-light-theme/auth-bg-img.svg') !important;
+    background-image: url('/resources/@bitpoolos/edge-theme-light/auth-bg-img.svg') !important;
     background-size: cover !important;
 }
 .ui-dialog.red-ui-editor-dialog.ui-widget.ui-widget-content.ui-front {
